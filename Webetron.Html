@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webetron</title>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Dela Gothic One">
+          <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Croissant One">
+          <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Anton">
+          
+    <script src="https://kit.fontawesome.com/2a6698a7fb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- ---------------------------------------------------------------Header-------------------------------------------------------- -->
+<div id="header">
+<div class="container">
+    <nav>
+        
+            <h1 class="logo"><span class="M">W</span><span class="rem">eb</span><span class="et">etron</span> <span class="excla">!</span></h1>
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a> </li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <!-- <li><a href="">Login</a></li> -->
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        
+        <img src="images/sun.png" id="bright">
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+
+    <div class="webetron">
+        <span class="left1"></span>
+        <span class="left2"></span>
+        <span class="right1"></span>
+        <span class="right2"></span>
+   </div>
+    
+   <div class="Intro">
+        <p class="fsd">Full Stack Developer</p>
+        <h1>Hello, <span class="Manoj"> Manoj</span> is here... </h1>
+   </div>
+</div>
+</div>
+ 
+<!-- --------------------------------------------------------------About Me------------------------------------------ -->
+        
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about1">
+                <img src="images/img14.jpg" >
+
+            </div>
+            <div class="about2">
+                <h1 class="subtitle1">About Me</h1>
+                <p class="Myself">I am a passionate Full Stack Developer with a proven track record of creating innovative and robust web applications. With a strong foundation in both front-end and back-end technologies, I bring a holistic approach to every project. My goal is to leverage my skills to deliver high-quality, user-centric solutions that drive business growth.</p>
+                <div class="titles">
+                    <p class="title-links active-link" onclick="opentitle('Skills')">Skills</p>
+                    <p class="title-links" onclick="opentitle('Experience')">Experience</p>
+                    <p class="title-links" onclick="opentitle('Education')">Education</p>
+                </div>
+                <div class="title-content  active-title" id="Skills" >
+                    <ul>
+                        <li><span>Web-Designing</span><br>Designing Web/app Interfaces Interactive</li>
+                        <li><span>Front-End Development</span><br>HTML, CSS & JavaScript</li>
+                        <li><span>Back-End Development</span><br>Django</li>
+                        <li><span>Database Management</span><br>MySQL, SQLite, MongoDB</li>
+                    </ul>
+                </div>
+                <div class="title-content" id="Experience">
+                    <ul>
+                        <li><span>2022-2023</span><br>Worked for a Healthcare as CDM Associate</li>
+                        <li><span>Experience-2</span><br>Description</li>
+                        <li><span>Experience-3</span><br>Description</li>
+                    </ul>
+                </div>
+                <div class="title-content" id="Education">
+                    <ul> 
+                        <li><span>2015-2017</span><br>H.S.C. from S. K. Somaiya Junior College.</li>
+                        <li><span>2017-2020</span><br>I have done my Graduation From G.N Khalsa College</li>
+                        <li><span>2023-Currently</span><br>Completing My Full stack Development Course from It Vedant</li>
+                       
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!----------------------------------------------------------Services------------------------------------------------------------>
+
+<div id="services">
+    <div class="container">
+        <h1 class="subtitle">My Services</h1>
+          <div class="Services-list">           
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Web design/App design</h2>
+                <p class="sev">I specialize in crafting tailor-made websites that align with your brand, goals, and target audience. n today's mobile-first world, it's crucial that your website looks and functions flawlessly on all devices. I design with a mobile-first approach to guarantee a consistent experience across smartphones, tablets, and desktops.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div> 
+                <i class="fa-solid fa-code" ></i>
+                <h2>Full Stack Web Development</h2>
+                <p class="sev">I have expertise in both front-end (HTML, CSS, JavaScript) and back-end (Python, Django, Node.js) technologies. This allows me to create dynamic, interactive, and data-driven web applications.Extend your online presence with cross-platform mobile applications using frameworks like React Native, ensuring a consistent user experience across iOS and Android devices.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-database"></i>
+                <h2>Database Design and Management</h2>
+                <p class="sev">I design and implement robust database solutions using SQL or NoSQL databases (MySQL, PostgreSQL, MongoDB, etc.) to ensure efficient data storage, retrieval, and management.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+     </div>
+  </div>
+
+  <!-- ---------------------------------------portfolio------------------------------------------- -->
+
+  <div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work2.gif" >
+                <div class="layer">
+                    <h3>Innovative health App</h3>
+                    <p>Creating an application which will help patients for monitoring their health condition. By susing this application time will be saved and necessory decision an be taken immediately, so the right treatment can given.
+                        application designed to empower users to take control of their physical and mental well-being.     </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/currency converter.jpg" >
+                <div class="layer">
+                    <h3>Currency Converter</h3>
+                    <p>The Currency Converter App is a simple yet powerful tool that allows users to quickly convert between different currencies. It provides up-to-date exchange rates and supports a wide range of international currencies.</p>
+                    <a href="C:\Users\manoj\OneDrive\Desktop\Site\Site2/currency converter.html" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/worksql.jpg" >
+                <div class="layer">
+                    <h3>Database Created & Maintained</h3>
+                    <p> Database Schema is Designed to Function as a Backend storage Database for the Bank.The Bank Database Project is designed to facilitate the management of a banking system. It includes functionalities for managing customer accounts, transactions, loans, and more.</p>
+                    <a href="images/sqlproject.pdf" download target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!-- -------------------------------------contact------------------------------------- -->
+<div id="contact">
+     <div class="container">
+              <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle1">Contact Me</h1>
+                <p><a href="mailto:" class="mil"><i class="fa-regular fa-paper-plane"></i>manojraulo58@gmail.com</a></p>
+                <p><i class="fa-solid fa-phone"></i>9833149773</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/login" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+                <a href="images/CV-ManojRaulo.pdf" download class="btn btn2">Download My CV</a>
+                
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" Placeholder="Enter Your Name" required>
+                    <input type="email" name="E-mail" placeholder="Enter Your E-mail" required>
+                    <textarea name="Message" maxlength="50" rows= "6" placeholder="Enter Message"></textarea>
+                    <button Type="Submit" class="btn btn2">Submit</button>
+                    
+
+                </form>
+                <span id="msg"></span>
+                
+
+            </div>
+                
+      </div>
+  </div>
+    <div class="copyright">
+        <p>copyright @ Manoj<i class="fa-solid fa-bolt"></i>Powerde By webetron</p>
+    </div>
+</div>
+            
+<!-- --------------------------------------------------------------JS------------------------------------------------------>
+            
+<!-- ----------------------------------------------------for About Me----------------------------------------------------------   -->
+<script>
+    var titlelinks = document.getElementsByClassName("title-links");
+    var titlecontents = document.getElementsByClassName("title-content");
+
+    function opentitle(titlename){
+        for(titlelink of titlelinks){
+        titlelink.classList.remove("active-link");
+    }
+    for( titlecontent of titlecontents){
+         titlecontent.classList.remove("active-title");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(titlename).classList.add("active-title");
+}
+</script>
+<!-- -----------------------------------------------------------for media bar------------------------------------------------------  -->
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right="-230px";
+    }
+
+</script>
+<!-- ---------------------------------------------------------For Theme------------------------------------------------------- -->
+<script>
+    var icon=document.getElementById("bright");
+    if(localStorage.getItem("theme")==null){
+        localStorage.setItem("theme", "light");
+    }
+
+    let localData=localStorage.getItem("theme");
+
+    if(localData=="light"){
+        bright.src="images/sun.png";
+        document.body.classList.remove("sun");
+    }
+
+    else if(localData=="dark"){
+        bright.src="images/moon.png";
+        document.body.classList.add("sun");
+    }
+
+    icon.onclick=function(){
+        document.body.classList.toggle("sun");
+        if(document.body.classList.contains("sun")){
+            bright.src="images/moon.png";
+            localStorage.setItem("theme", "dark");
+        }
+        else {bright.src="images/sun.png";
+        localStorage.setItem("theme", "light");}
+    }
+  
+</script>
+<!-- --------------------------------------------------For contact form---------------------------------------------------- -->
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzcJUoZijLSNdLO5OY5KIB16mChedxMYGUbAtpds39Oc_MUtJ1jI2_UgtWgW3yjVGfq7w/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+  
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML="Message sent successfully !"
+        setTimeout(function(){
+            msg.innerHTML=""
+
+        },3000)
+       form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+</html>
